@@ -10,10 +10,10 @@ Logs orders, counties, customer tiers and revenue. Predicts top customers and re
 - Calculates total spend per customer and per county
 - Identifies loyal customers and top performers per county
 
-Setup
+## Setup
 pip install pandas
 python3 tracker.py
-Usage
+## Usage
 import sqlite3, pandas as pd
 conn = sqlite3.connect(":memory:")
 
